@@ -1,7 +1,21 @@
+# ReAct Legal Assistant Agent - Phase 1 Dependencies
+
+# Core framework
 streamlit==1.28.1
+
+# LangChain + integrations
+langchain>=0.0.350
 langchain-google-genai>=0.0.8
 langgraph>=0.0.60
+
+# NLP & embeddings
+sentence-transformers>=2.7.0
 scikit-learn>=1.0.0
-faiss-cpu>=1.9.0
+faiss-cpu>=1.7.4
+
+# PDF & environment utils
 pypdf==3.17.4
 python-dotenv==1.0.0
+
+# Numpy pinned to safe range for FAISS
+numpy>=1.21,<1.26
