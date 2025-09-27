@@ -1,0 +1,9 @@
+# ReAct Legal Assistant Agent - Phase 1 Dependencies
+streamlit==1.28.1
+langchain-google-genai>=0.0.8
+langgraph>=0.0.60
+# sentence-transformers>=2.7.0  # Too many dependency conflicts
+scikit-learn>=1.0.0
+faiss-cpu
+pypdf==3.17.4
+python-dotenv==1.0.0
